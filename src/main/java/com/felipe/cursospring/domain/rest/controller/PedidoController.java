@@ -1,12 +1,16 @@
 package com.felipe.cursospring.domain.rest.controller;
 
-import org.springframework.web.bind.annotation.*;
+import static org.springframework.http.HttpStatus.CREATED;
+
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseStatus;
+import org.springframework.web.bind.annotation.RestController;
 
 import com.felipe.cursospring.domain.entity.Pedido;
-import com.felipe.cursospring.domain.rest.controller.dto.PedidoDTO;
+import com.felipe.cursospring.domain.rest.dto.PedidoDTO;
 import com.felipe.cursospring.domain.service.IPedidoService;
-
-import static org.springframework.http.HttpStatus.*;
 
 @RestController
 @RequestMapping("/api/pedidos")

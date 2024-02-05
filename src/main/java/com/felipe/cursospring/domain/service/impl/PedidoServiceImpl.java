@@ -16,8 +16,8 @@ import com.felipe.cursospring.domain.repository.Clientes;
 import com.felipe.cursospring.domain.repository.ItemsPedido;
 import com.felipe.cursospring.domain.repository.Pedidos;
 import com.felipe.cursospring.domain.repository.Produtos;
-import com.felipe.cursospring.domain.rest.controller.dto.ItemPedidoDTO;
-import com.felipe.cursospring.domain.rest.controller.dto.PedidoDTO;
+import com.felipe.cursospring.domain.rest.dto.ItemPedidoDTO;
+import com.felipe.cursospring.domain.rest.dto.PedidoDTO;
 import com.felipe.cursospring.domain.service.IPedidoService;
 
 import lombok.RequiredArgsConstructor;

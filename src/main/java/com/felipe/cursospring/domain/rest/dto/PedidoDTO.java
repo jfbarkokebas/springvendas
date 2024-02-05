@@ -1,4 +1,4 @@
-package com.felipe.cursospring.domain.rest.controller.dto;
+package com.felipe.cursospring.domain.rest.dto;
 
 import java.math.BigDecimal;
 import java.util.List;

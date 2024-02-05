@@ -30,7 +30,7 @@ public class VendasApplication {
 
             Cliente cliente = new Cliente();
             cliente.setCpf("03003003011");
-            cliente.setNome("fulano");
+            cliente.setNome("VendaApplication Class");
             persisClientes.save(cliente);
 
             Produto produto = new Produto();
