@@ -8,9 +8,9 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data //--> getters, setters, hashcode, equals
-@NoArgsConstructor
 @AllArgsConstructor
-public class PedidoDTO {
+@NoArgsConstructor
+public class PedidoDTO { //---> ok
     private Integer clienteID;
     private BigDecimal total;
     private List<ItemPedidoDTO> itens;

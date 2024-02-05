@@ -5,9 +5,9 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data //--> getters, setters, hashcode, equals
-@NoArgsConstructor
 @AllArgsConstructor
-public class ItemPedidoDTO {
+@NoArgsConstructor
+public class ItemPedidoDTO { //==> ok
     
     private Integer produtoID;
     private Integer quantidade;
